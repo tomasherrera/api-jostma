@@ -1,0 +1,23 @@
+{
+  "name": "api-jostma",
+  "version": "1.0.0",
+  "description": "API for the Jostma Sales and Inventory Management",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tomas Herrera",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "i": "^0.3.6",
+    "lodash": "^4.17.10",
+    "mongodb": "^3.0.7",
+    "mongoosastic": "git+https://github.com/avadhpatel/mongoosastic.git",
+    "mongoose": "^5.0.15",
+    "objectid": "^3.2.1",
+    "shortid": "^2.2.8"
+  }
+}
